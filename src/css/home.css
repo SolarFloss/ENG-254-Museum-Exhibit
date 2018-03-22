@@ -72,5 +72,29 @@
   border: 5px solid #f9f3d9;
   background-image: url("https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_80%2Cw_300/MTE1ODA0OTcxODMwMjQ4OTcz/richard-wright-9537751-1-402.jpg");
   background-size: cover;
+  position: relative;
+}
+
+.right-wrapper .image-wrapper svg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  height: 50px;
+  animation: float 2s infinite;
+  display: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 /*# sourceMappingURL=home.css.map */
