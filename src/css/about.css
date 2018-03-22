@@ -1,5 +1,4 @@
 .about-wrapper {
-  padding-top: 100px;
   margin: auto;
 }
 
@@ -63,7 +62,7 @@
   color: #C14249;
 }
 
-.about-wrapper .bio-section {
+.about-wrapper .section {
   margin-bottom: 100px;
 }
 /*# sourceMappingURL=about.css.map */

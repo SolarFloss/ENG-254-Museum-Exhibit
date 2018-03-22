@@ -5,6 +5,7 @@ import { Route, Link } from 'react-router-dom';
 import Wright from './pages/Wright';
 import Themes from './pages/Themes';
 import About from './pages/About';
+import { Menu } from 'react-feather';
 
 
 class App extends Component {
@@ -22,6 +23,15 @@ class App extends Component {
       this.links[0].children[i].classList.remove("selected");
     }
     target.parentElement.classList.add("selected");
+
+
+    if(this.links[0].classList.contains("open"))
+      this.links[0].classList.toggle("open");
+  }
+
+  menuClicked = (e) => {
+    let nav = this.links[0];
+    nav.classList.toggle("open");
   }
   render() {
 
@@ -34,6 +44,7 @@ class App extends Component {
                 <Route exact path="/about" component={About} />
               </div>
               <nav>
+                <div className="menu-button-wrapper"><Menu onClick={this.menuClicked}/></div>
                 <Link to="/" className="selected" onClick={this.linkClicked}><span >HOME</span></Link>
                 <Link to="/wright" onClick={this.linkClicked}><span >RICHARD WRIGHT</span></Link>
                 <Link to="/themes" onClick={this.linkClicked}><span >THEMES</span></Link>

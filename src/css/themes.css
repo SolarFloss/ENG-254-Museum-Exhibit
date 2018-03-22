@@ -1,5 +1,4 @@
 .themes-wrapper {
-  padding-top: 100px;
   margin: auto;
 }
 
@@ -30,7 +29,7 @@
   color: white;
 }
 
-.themes-wrapper .bio-section {
+.themes-wrapper .section {
   margin-bottom: 100px;
 }
 /*# sourceMappingURL=themes.css.map */
