@@ -68,11 +68,12 @@ nav{
         transform: translate(-50%, 50%);
         //z-index: 99;
         display: none;
+    
         svg{
             color: #191919;
             width: 100%;
             height: 100%;
-            
+            transition: all ease 0.5s;
         }
         
     }

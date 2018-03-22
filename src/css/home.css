@@ -79,7 +79,7 @@
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 20px;
   color: white;
   height: 50px;
   animation: float 2s infinite;
@@ -91,7 +91,7 @@
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-50px);
   }
   100% {
     transform: translateY(0px);
