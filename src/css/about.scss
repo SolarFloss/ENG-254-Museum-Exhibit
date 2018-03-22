@@ -1,0 +1,67 @@
+@import 'variables';
+
+.about-wrapper{
+    
+    padding-top: 100px;
+    margin: auto;
+    p,h1{
+        color: $tan;
+        font-family: $oswald;
+    }
+
+    h1{
+        font-size: 3em;
+        display: block;
+        position: relative;
+        &:after{
+            content: '';
+            width: 20%;
+            height: 5px;
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            background-color: $accent;
+        }
+    }
+
+    .wright-image{
+        float: left;
+        background: url("https://s3.amazonaws.com/loa-production-23ffs35gui41a/writers/images/000/000/269/big/wright_richard_WD.jpg?1472662074");
+        background-size: cover;
+        background-position: 50% 0%;
+        width: 200px;
+        height: 330px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .book-image{
+        float: right;
+        background: url("https://pictures.abebooks.com/KELAGEDART/22398883276.jpg");
+        background-size: cover;
+        background-position: 40% 0%;
+        width: 300px;
+        height: 330px;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .image{
+        border: 5px solid $tan;
+        transition: all ease 0.5s;
+        &:hover{
+            transform: scale(1.01);
+        }
+    }
+
+    p{
+        font-size: 2em;
+        line-height: 2em;
+        color: white;
+        em,.em{
+            color: $accent;
+        }
+    }
+
+    .bio-section{
+        margin-bottom: 100px;
+    }
+}

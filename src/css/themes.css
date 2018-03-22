@@ -1,0 +1,36 @@
+.themes-wrapper {
+  padding-top: 100px;
+  margin: auto;
+}
+
+.themes-wrapper p, .themes-wrapper h1 {
+  color: #f9f3d9;
+  font-family: "Oswald", sans-serif;
+}
+
+.themes-wrapper h1 {
+  font-size: 3em;
+  display: block;
+  position: relative;
+}
+
+.themes-wrapper h1:after {
+  content: '';
+  width: 20%;
+  height: 5px;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  background-color: #C14249;
+}
+
+.themes-wrapper p {
+  font-size: 2em;
+  line-height: 2em;
+  color: white;
+}
+
+.themes-wrapper .bio-section {
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=themes.css.map */

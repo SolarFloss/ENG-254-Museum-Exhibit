@@ -1,0 +1,36 @@
+@import 'variables';
+
+.themes-wrapper{
+    
+    padding-top: 100px;
+    margin: auto;
+    p,h1{
+        color: $tan;
+        font-family: $oswald;
+    }
+
+    h1{
+        font-size: 3em;
+        display: block;
+        position: relative;
+        &:after{
+            content: '';
+            width: 20%;
+            height: 5px;
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            background-color: $accent;
+        }
+    }
+
+    p{
+        font-size: 2em;
+        line-height: 2em;
+        color: white;
+    }
+
+    .bio-section{
+        margin-bottom: 100px;
+    }
+}

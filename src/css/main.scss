@@ -1,0 +1,55 @@
+@import 'variables';
+
+.main-wrapper{
+    width: 100%;
+    height: 100%;
+    //position: relative;
+    background-color: #191919;
+    overflow-y: auto;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 75%;
+    height: 100%;
+    padding: 30px;
+}
+
+
+nav{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: rgba(0,0,0,0);
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: $oswald;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $tan;
+    z-index: 1;
+    a{
+            padding: 0 10px;
+            color: #515151;
+            margin: 0px 30px;
+            text-decoration: none;
+            transition: all linear 0.2s;
+            outline: none;
+            &:hover{
+                //background-color: #020202;
+                color: $accent;
+            }
+
+            &.selected{
+                //background: #020202;
+                color: $accent;
+            }
+        }
+}
