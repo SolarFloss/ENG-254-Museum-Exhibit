@@ -8,19 +8,41 @@ class Wright extends Component {
                 <div className="section">
                     <h1>BACKGROUND</h1>
                     <div className="wright-image image"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis nunc. Nulla eu mauris vel velit porta ultrices in vitae metus. Maecenas tempor nunc pretium, porta urna vitae, porttitor magna. Donec ornare mi at vulputate pretium. Etiam pellentesque interdum tempus. Nunc congue sed enim eget porttitor. Maecenas pulvinar consectetur ante, nec luctus tellus congue commodo. In hac habitasse platea dictumst. Duis ultricies odio nibh, id bibendum nibh dictum ac. Ut efficitur velit eu enim vestibulum convallis. Vivamus sit amet felis fermentum, molestie ligula consequat, venenatis mauris. Nulla congue felis quis odio pharetra, at pharetra nulla fringilla. Etiam quis justo aliquet odio facilisis facilisis eget in tortor. Praesent non nulla volutpat, euismod nibh sed, scelerisque arcu. Duis at porta eros. </p>
+                    <p>
+                        Richard Wright, born September 4, 1908, in the city of Natchez, Mississippi, was an African American writer of many popular and controversial
+                        writings. He often wrote about the issues of society that he observed as a child and as an adult. The majority of these issues were directly
+                        related to race relations primarily between whites and blacks during the 20th century.
+                    </p>
+                    <p>
+                        Growing up in poverty and under a single mother made Wright's life very similar to the majority of young blacks at the time. Before the age of
+                        21 Wright had worked several jobs, and was in and out of school. At the same time Wright was discovering his extreme thirst for knowledge, and
+                        his strong desire to learn to read and write.
+                    </p>
                     
                 </div>
 
                 <div className="section">
                     <h1>HIS WORK</h1>
                     <div className="book-image image"></div>
-                    <p>Nulla at nisi in neque porttitor ultrices. Nulla facilisi. Aliquam imperdiet diam nec sem cursus tincidunt. Morbi tincidunt, sem quis tincidunt viverra, nibh ante ullamcorper lacus, vehicula rutrum justo nisl et arcu. Nam arcu ante, pellentesque non mollis in, dictum sed nunc. Duis eu dictum augue. Integer commodo eros eget porta varius. Fusce gravida, enim aliquet ornare posuere, odio lorem placerat odio, eget placerat libero turpis eu purus. Vestibulum congue commodo mattis. Maecenas venenatis, tellus eget consectetur pretium, magna sem lacinia dui, non auctor velit orci vitae augue. Morbi mollis turpis vel sapien dictum, vel tristique ex ullamcorper. Pellentesque vestibulum accumsan accumsan. Ut a nisi ac ipsum rutrum accumsan eu nec velit. </p>
+                    <p>Throughout his life, Wright wrote several books ranging from Drama, to Non-fiction, the most popular being the one that we will be analyzing,
+                         titled <em>Black Boy</em>, which was written in 1945. Some of his other works include, <em>Native Son</em>, written in 1940,
+                        <em>The Outsider</em>, written in 1953, <em>The Long Dream</em>, written in 1958, and <em>Lawd Today</em>, written in 1963.
+                    </p>
                 </div>
 
                 <div className="section">
                     <h1>INFLUENCE</h1>
-                    <p>In varius pulvinar sodales. Donec malesuada condimentum tristique. Quisque ac aliquet sem, vitae lobortis arcu. Etiam molestie libero eu massa molestie, id venenatis nulla efficitur. Quisque nec pretium lorem. Ut non quam magna. Vivamus vitae nisi id massa fringilla vulputate. Curabitur tristique, magna id imperdiet fermentum, purus sem pretium odio, at pharetra nibh felis vel metus. Nulla facilisi. Nullam convallis elit nec nulla auctor gravida a venenatis lorem. Quisque dignissim fringilla nibh non mollis. Cras condimentum neque et dolor convallis mattis. Vestibulum tincidunt id magna sed semper. Suspendisse hendrerit tristique velit ac aliquet. Nunc feugiat eros a bibendum viverra. </p>
+                    <div className="communist-image image"></div>
+                    <p>Before taking a look at specific individuals that insipired the work of Richard Wright, it is important to note the importance of the rising 
+                        communist party in the mid-20th century. After constantly moving from place to place, Wright ended up arriving in Chicago and made his way
+                        into the American Communist Party. From here in 1938, Wright published <em>Uncle Tom's Children</em>. which was a collection of stories
+                        depicting blacks revolting against their government and the environment around them. According to Wright, many of the books he wrote between
+                        1932 and 1944 were reflections of his beliefs tied to communism. He believed that communism was the only set of ideals that are capable of 
+                        restoring humanitarian values in society.
+                    </p>
+                    <p>
+
+                    </p>
                 </div>
             </div>
         );

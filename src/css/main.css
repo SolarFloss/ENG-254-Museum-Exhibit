@@ -14,7 +14,7 @@
   width: 75%;
   height: 100%;
   padding: 30px;
-  transition: all linear 0.5s;
+  transition: all ease 0.2s;
 }
 
 .wrapper h1:after {

@@ -17,7 +17,7 @@
     width: 75%;
     height: 100%;
     padding: 30px;
-    transition: all linear 0.5s;
+    transition: all ease 0.2s;
     h1{
         &:after{
             transition: all linear 0.5s;

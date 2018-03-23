@@ -43,6 +43,16 @@
   margin: 10px 0px 0px 20px;
 }
 
+.wright-wrapper .communist-image {
+  float: left;
+  background: url("https://thefederalistpapers.org/wp-content/uploads/2015/01/cpuusa.jpg");
+  background-size: cover;
+  background-position: 40% 0%;
+  width: 330px;
+  height: 330px;
+  margin: 0px 20px 0px 0px;
+}
+
 .wright-wrapper .image {
   border: 5px solid #f9f3d9;
   transition: all ease 0.5s;
