@@ -52,7 +52,7 @@ class App extends Component {
                 <Link to="/" className="selected" onClick={this.linkClicked}><span >HOME</span></Link>
                 <Link to="/wright" onClick={this.linkClicked}><span >RICHARD WRIGHT</span></Link>
                 <Link to="/themes" onClick={this.linkClicked}><span >THEMES</span></Link>
-          <Link to="/influence" onClick={this.linkClicked}><span >INDEPENDENCE/SOCIETAL INFLUENCE</span></Link>
+                <Link to="/influence" onClick={this.linkClicked}><span >INDEPENDENCE/SOCIETAL INFLUENCE</span></Link>
                 <Link to="/sources" onClick={this.linkClicked}><span >SOURCES</span></Link>
                 <Link to="/about" onClick={this.linkClicked}><span >ABOUT ME</span></Link>
               </nav>
