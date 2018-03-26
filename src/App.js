@@ -6,6 +6,8 @@ import Wright from './pages/Wright';
 import Themes from './pages/Themes';
 import About from './pages/About';
 import { Menu } from 'react-feather';
+import Sources from './pages/Sources';
+import Influence from './pages/Influence';
 
 
 class App extends Component {
@@ -42,14 +44,16 @@ class App extends Component {
                 <Route exact path="/wright" component={Wright}/>
                 <Route exact path="/themes" component={Themes} />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/sources" component={Sources} />
+                <Route exact path="/influence" component={Influence} />
               </div>
               <nav>
                 <div className="menu-button-wrapper"><Menu onClick={this.menuClicked}/></div>
                 <Link to="/" className="selected" onClick={this.linkClicked}><span >HOME</span></Link>
                 <Link to="/wright" onClick={this.linkClicked}><span >RICHARD WRIGHT</span></Link>
                 <Link to="/themes" onClick={this.linkClicked}><span >THEMES</span></Link>
-                <Link to="/" onClick={this.linkClicked}><span >INDEPENDENCE/SOCIETAL INFLUENCE</span></Link>
-                <Link to="/" onClick={this.linkClicked}><span >RESOURCES</span></Link>
+          <Link to="/influence" onClick={this.linkClicked}><span >INDEPENDENCE/SOCIETAL INFLUENCE</span></Link>
+                <Link to="/sources" onClick={this.linkClicked}><span >SOURCES</span></Link>
                 <Link to="/about" onClick={this.linkClicked}><span >ABOUT ME</span></Link>
               </nav>
           </div>

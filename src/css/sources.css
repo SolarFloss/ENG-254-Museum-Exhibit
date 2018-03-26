@@ -1,19 +1,26 @@
-.themes-wrapper {
+.sources-wrapper {
   margin: auto;
 }
 
-.themes-wrapper p, .themes-wrapper h1 {
+.sources-wrapper p, .sources-wrapper h1 {
   color: #f9f3d9;
   font-family: "Oswald", sans-serif;
+  margin-bottom: 2em;
 }
 
-.themes-wrapper h1 {
+.sources-wrapper li {
+  font-size: 20px;
+  color: white;
+  margin: 1.5em 0px;
+}
+
+.sources-wrapper h1 {
   font-size: 3em;
   display: block;
   position: relative;
 }
 
-.themes-wrapper h1:after {
+.sources-wrapper h1:after {
   content: '';
   width: 20%;
   height: 5px;
@@ -23,24 +30,24 @@
   background-color: #C14249;
 }
 
-.themes-wrapper p {
+.sources-wrapper p {
   font-size: 2em;
   line-height: 2em;
   color: white;
 }
 
-.themes-wrapper .section {
+.sources-wrapper .section {
   margin-bottom: 100px;
 }
 
-.themes-wrapper .quote {
+.sources-wrapper .quote {
   color: #C14249;
   display: block;
   width: 100%;
   position: relative;
 }
 
-.themes-wrapper .quote:after {
+.sources-wrapper .quote:after {
   content: '';
   width: 100%;
   height: 2px;
@@ -50,7 +57,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.themes-wrapper .quote:before {
+.sources-wrapper .quote:before {
   content: '';
   width: 100%;
   height: 2px;
@@ -59,4 +66,4 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
 }
-/*# sourceMappingURL=themes.css.map */
+/*# sourceMappingURL=sources.css.map */

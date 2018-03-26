@@ -62,6 +62,9 @@
   .wrapper p {
     font-size: 12pt !important;
   }
+  .wrapper li {
+    font-size: 12pt !important;
+  }
 }
 
 @media (max-width: 1340px) {

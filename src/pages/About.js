@@ -6,12 +6,12 @@ class About extends Component {
         return (
             <div className="about-wrapper wrapper">
                 <div className="section">
-                    <h1>WHO AM I</h1>
+                    <h1>WHO</h1>
                     <p>My name is <span className="em">Nicholas Morris</span>, and I am a student from Northern Virginia Community College. I also happen to be a <span className="em">web developer and designer</span>, so when I heard that I would have to make a webpage for my ENG 254 class, I was probably happier than most. Aside from doing what I love and being able to create a nice looking website, I also get to talk about a wonderful book I read throughout the semester titles <em>Black Boy</em>  written by Richard Wright.</p>
                 </div>
 
                 <div className="section">
-                    <h1>WHY I CHOSE THIS BOOK</h1>
+                    <h1>WHAT</h1>
                     <p>After reading a small excerpt of this book I was instantly hooked by Wright's writing style. Aside from touching on critical topics for his
                         time period, the way he talked about each topic with great detail was extremely captivating. Wright was truly an intellectual, and it really
                         showed in his writing. The way he would depict people and their characteristics made me feel as if I was personally meeting these people. He
@@ -20,13 +20,12 @@ class About extends Component {
                 </div>
 
                 <div className="section">
-                    <h1>SOCIETY AND CLASS</h1>
-                    <p>In varius pulvinar sodales. Donec malesuada condimentum tristique. Quisque ac aliquet sem, vitae lobortis arcu. Etiam molestie libero eu massa molestie, id venenatis nulla efficitur. Quisque nec pretium lorem. Ut non quam magna. Vivamus vitae nisi id massa fringilla vulputate. Curabitur tristique, magna id imperdiet fermentum, purus sem pretium odio, at pharetra nibh felis vel metus. Nulla facilisi. Nullam convallis elit nec nulla auctor gravida a venenatis lorem. Quisque dignissim fringilla nibh non mollis. Cras condimentum neque et dolor convallis mattis. Vestibulum tincidunt id magna sed semper. Suspendisse hendrerit tristique velit ac aliquet. Nunc feugiat eros a bibendum viverra. </p>
-                </div>
-
-                <div className="section">
-                    <h1>CHILDHOOD</h1>
-                    <p>In varius pulvinar sodales. Donec malesuada condimentum tristique. Quisque ac aliquet sem, vitae lobortis arcu. Etiam molestie libero eu massa molestie, id venenatis nulla efficitur. Quisque nec pretium lorem. Ut non quam magna. Vivamus vitae nisi id massa fringilla vulputate. Curabitur tristique, magna id imperdiet fermentum, purus sem pretium odio, at pharetra nibh felis vel metus. Nulla facilisi. Nullam convallis elit nec nulla auctor gravida a venenatis lorem. Quisque dignissim fringilla nibh non mollis. Cras condimentum neque et dolor convallis mattis. Vestibulum tincidunt id magna sed semper. Suspendisse hendrerit tristique velit ac aliquet. Nunc feugiat eros a bibendum viverra. </p>
+                    <h1>WHY</h1>
+                    <p>
+                        Through my analysis of Wright's <i>Black Boy</i>, I hope that I can show you the many problems that a significant amount of young blacks face
+                        due to isolation and independence. With this knowledge, hopefully you can be of assistance in detecting these problems early and acting 
+                        accordingly. Although I have not provided any solutions to the problems presented, I hope that this step is a step in the right direction.
+                    </p>
                 </div>
             </div>
         );

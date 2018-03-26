@@ -7,22 +7,63 @@ class Themes extends Component {
             <div className="themes-wrapper wrapper">
                 <div className="section">
                     <h1>RACISM</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a turpis nunc. Nulla eu mauris vel velit porta ultrices in vitae metus. Maecenas tempor nunc pretium, porta urna vitae, porttitor magna. Donec ornare mi at vulputate pretium. Etiam pellentesque interdum tempus. Nunc congue sed enim eget porttitor. Maecenas pulvinar consectetur ante, nec luctus tellus congue commodo. In hac habitasse platea dictumst. Duis ultricies odio nibh, id bibendum nibh dictum ac. Ut efficitur velit eu enim vestibulum convallis. Vivamus sit amet felis fermentum, molestie ligula consequat, venenatis mauris. Nulla congue felis quis odio pharetra, at pharetra nulla fringilla. Etiam quis justo aliquet odio facilisis facilisis eget in tortor. Praesent non nulla volutpat, euismod nibh sed, scelerisque arcu. Duis at porta eros. </p>
+                    <p>
+                        As a child, Wright often came in contact with the issue of racism and race. Even with little to no understanding, he had been
+                        told that there is an "important" distinction to make between black and white people. Several times throughout his childhood
+                        he would ask his mother or grandmother questions regarding race, and by giving unclear answers, they only helped confuse young
+                        Wright. This quote does a great job of explaining Wright's confusion:
+                    </p>
+                    <p>
+                        <span className="quote">"It might have been that my tardiness in learning to sense white people as "white" people came from the fact that many of my relatives were "white"-looking people. My grandmother, who was white as any "white" person, had never looked "white" to me."</span>
+                    </p>
+                    <p>
+                        Wright had no understanding as to what makes a person <b>white</b>. Why can't your looks alone determing what makes you white, 
+                        and what doesn't make you white? These are questions that Wright considered in his mind throughout a majority of his childhood. 
+                    </p>
+                    <p>
+                        What we can determine from this is that, from a very young age, many blacks at the time, and to this day, are given told that they
+                        are inherently different from their white counterparts. This is extremely damaging, because as a child they cannot graps the absurd
+                        notion that having a different skin color determines anything about their personal character.
+                    </p>
+                   
                 </div>
 
                 <div className="section">
                     <h1>ISOLATION</h1>
-                    <p>Nulla at nisi in neque porttitor ultrices. Nulla facilisi. Aliquam imperdiet diam nec sem cursus tincidunt. Morbi tincidunt, sem quis tincidunt viverra, nibh ante ullamcorper lacus, vehicula rutrum justo nisl et arcu. Nam arcu ante, pellentesque non mollis in, dictum sed nunc. Duis eu dictum augue. Integer commodo eros eget porta varius. Fusce gravida, enim aliquet ornare posuere, odio lorem placerat odio, eget placerat libero turpis eu purus. Vestibulum congue commodo mattis. Maecenas venenatis, tellus eget consectetur pretium, magna sem lacinia dui, non auctor velit orci vitae augue. Morbi mollis turpis vel sapien dictum, vel tristique ex ullamcorper. Pellentesque vestibulum accumsan accumsan. Ut a nisi ac ipsum rutrum accumsan eu nec velit. </p>
+                    <p>
+                        With a father out of the picture and a busy working mother, most of Wright's childhood was spent in isolation and solitude. This allowed him to explore the 
+                        world at his own pace, but at the same time, forced him to be exposed to things a child should not be exposed to. One day in Wright's childhood
+                        he stumbles into a bar filled with drunk adults, one of which asks him to repeat obscenities for pennies and nickels. Wright explains this as:
+                    </p>
+                    <p>
+                        <span className="quote">"for a penny or a nickel, I would repeat to anyone whatever was whispered to me. In my foggy, tipsy state, the reaction of men and women to my mysterious words enthralled me. I ran from person to person, laughing, hiccoughing, spewing out firth that made them bend down with glee"</span>
+                    </p>
+                    <p>
+                        Even though Wright did not know what each word meant, he knew that what he was doing would be looked down upon. This childish behavior
+                        displayed by the adults in the bar are a perfect example of something that a child should not be exposed to. It can't be said for sure
+                        whether or not this specific situation had a large impact on Wright's behavior as he grew up in the future, but it is not hard to 
+                        imagine a much worse situation that a child could stumble onto, which would severly impact their growth as an adult.
+                    </p>
                 </div>
 
                 <div className="section">
-                    <h1>SOCIETY AND CLASS</h1>
-                    <p>In varius pulvinar sodales. Donec malesuada condimentum tristique. Quisque ac aliquet sem, vitae lobortis arcu. Etiam molestie libero eu massa molestie, id venenatis nulla efficitur. Quisque nec pretium lorem. Ut non quam magna. Vivamus vitae nisi id massa fringilla vulputate. Curabitur tristique, magna id imperdiet fermentum, purus sem pretium odio, at pharetra nibh felis vel metus. Nulla facilisi. Nullam convallis elit nec nulla auctor gravida a venenatis lorem. Quisque dignissim fringilla nibh non mollis. Cras condimentum neque et dolor convallis mattis. Vestibulum tincidunt id magna sed semper. Suspendisse hendrerit tristique velit ac aliquet. Nunc feugiat eros a bibendum viverra. </p>
-                </div>
-
-                <div className="section">
-                    <h1>CHILDHOOD</h1>
-                    <p>In varius pulvinar sodales. Donec malesuada condimentum tristique. Quisque ac aliquet sem, vitae lobortis arcu. Etiam molestie libero eu massa molestie, id venenatis nulla efficitur. Quisque nec pretium lorem. Ut non quam magna. Vivamus vitae nisi id massa fringilla vulputate. Curabitur tristique, magna id imperdiet fermentum, purus sem pretium odio, at pharetra nibh felis vel metus. Nulla facilisi. Nullam convallis elit nec nulla auctor gravida a venenatis lorem. Quisque dignissim fringilla nibh non mollis. Cras condimentum neque et dolor convallis mattis. Vestibulum tincidunt id magna sed semper. Suspendisse hendrerit tristique velit ac aliquet. Nunc feugiat eros a bibendum viverra. </p>
+                    <h1>SOCIETY</h1>
+                    <p>
+                        From a very young age, Wright had always stood out, and in more ways than one. This prooved to be a challenge for Wright in many
+                        situations. In general peer pressure brought on by society is usually straightforward, and not paridoxical, but unlucky for Wright,
+                        he found himself in this exact situation. He writes,
+                    </p>
+                    <p>
+                        <span className="quote">
+                        "Yet, all about me, Negroes were stealing. More than once I had been called a "dumb nigger" by black boys who discovered that I had not availed myself of a chance to snatch some petty piece of white property that had been carelessly left within my reach.
+                        "How in hell you gonna git ahead?" I had been asked when I had said that one ought not steal"
+                        </span>
+                    </p>
+                    <p>
+                        The paradox here is that society is very against stealing. This is something that seems to be common sense, but the lines of what is
+                        common sense starts to get blurred when referring to oppressed groups. While society is against stealing, people a part of the same
+                        black community as Wright were confused as to why he didn't steal, and how he thinks he will get ahead without stealing.
+                    </p>
                 </div>
             </div>
         );
