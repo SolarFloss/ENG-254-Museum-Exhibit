@@ -61,6 +61,10 @@
   color: #f9f3d9;
 }
 
+a {
+  text-decoration: none;
+}
+
 .right-wrapper {
   width: 50%;
   height: calc(100% - 40px);
