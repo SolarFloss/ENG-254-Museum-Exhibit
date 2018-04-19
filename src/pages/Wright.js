@@ -42,9 +42,10 @@ class Wright extends Component {
                     </p>
                     <p>
                         Along with this, the book was banned by the board of education of the Island Trees Union Free School District. This happened in 1982 and
-                        resulted in a US Supreme Court Case in 1982, named Island Trees School Distric v. Pico (Island Trees Sch. Dist. v. Pico by Pico).
+                        resulted in a US Supreme Court Case in 1982, named Island Trees School Distric v. Pico. Alongside Wright's writing,
+                        there were 10 other publications that were banned. Pieces created by writers such as Desmond Morris, Benard Malamud, and Langston Hughes (Island Trees Sch. Dist. v. Pico by Pico).
                     </p>
-                    <div className="cover-image image"></div>
+
                 </div>
 
                 <div className="section" id="influence">
@@ -63,6 +64,7 @@ class Wright extends Component {
                 </div>
                 <div className="section" id="summary">
                     <h1>SUMMARY</h1>
+                    <div className="image cover-image2"></div>
                     <p>At a very young age, the main character of this story, who is also the writer, Richard Wright, was alone and on his own. Very early on in his
                         life his father left his mother to be with another woman. With only one person bringing income into the family, Richard found often found
                         himself roaming around on his own. This resulted in him getting into trouble fairly often. For a brief time, Ella, Richard's mother moves
@@ -77,6 +79,7 @@ class Wright extends Component {
                         discovering that there had been a boy who had died in the bedroom that he would be staying in, Richard decides to stay with his Grandmother. He
                         quickly realizes the mistake that he has made
                     </p>
+                    <div className="cover-image image"></div>
                     <p>
                         Richard's grandmother was a very strict woman and was very serious about religion. This did not sit well with Richard as he had been used to a
                         much higher degree of freedom, and he had not had much exposure to religion thus far into his life. His grandmother tries to spend a lot of her time

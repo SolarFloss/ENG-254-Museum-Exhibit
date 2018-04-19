@@ -42,14 +42,25 @@
         margin: 10px 0px 0px 20px;
     }
     .cover-image{
-        float: right;
+        float: left;
         background: url("https://media1.popsugar-assets.com/files/thumbor/Uq2QWH4MUFJ9QJGtSVkNPcv9JIc/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/02/21/979/n/1922283/73ac586158acbf9330e0d0.80080516_c55dfafc771fd8e6771ddd1befcfafc7/i/Black-Boy-Richard-Wright.jpg");
         background-size: cover;
         background-position: 0% 40%;
         width: 300px;
         height: 330px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .cover-image2{
+        float: right;
+        background: url("https://i.pinimg.com/originals/75/d3/87/75d387cce7c7a3076ee2bfebb5682523.jpg");
+        background-size: cover;
+        background-position: 0% 0%;
+        width: 300px;
+        height: 500px;
         margin: 10px 0px 0px 20px;
     }
+
 
     .communist-image{
         float: left;
