@@ -52,13 +52,7 @@
   transform: scale(1.01);
 }
 
-.about-wrapper p {
-  font-size: 2em;
-  line-height: 2em;
-  color: white;
-}
-
-.about-wrapper p em, .about-wrapper p .em {
+.about-wrapper em, .about-wrapper .em {
   color: #C14249;
 }
 

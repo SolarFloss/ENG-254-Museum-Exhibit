@@ -18,13 +18,93 @@
     height: 100%;
     padding: 30px;
     transition: all ease 0.2s;
+    animation-name: appear;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
     h1{
         &:after{
             transition: all linear 0.5s;
         }
     }
+    p{
+        font-size: 1.7em;
+        line-height: 2em;
+        color: white;
+    }
+    .quote{
+        color: $accent;
+        display: block;
+        width: 50%;
+        position: relative;
+        &:after{
+         content: '';
+         width: 100%;
+         height: 2px;
+         bottom: -10px;
+         left: 0;
+         position: absolute;
+         background-color: rgba(0,0,0,.4);   
+        }
+        &:before{
+         content: '';
+         width: 100%;
+         height: 2px;
+         top: -5px;
+         left: 0;
+         position: absolute;
+         background-color: rgba(0,0,0,.4);   
+        }
+    }
 }
 
+
+.top-links{
+    color: $accent;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    span{
+        display: block;
+        margin: 0px 20px;
+        font-size: 1.3em;
+        font-family: $oswald;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: $accent;
+        display: block;
+        position: relative;
+        transition: all ease 0.3s;
+        &:after{
+            content: '';
+            width: 100%;
+            height: 2px;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            background-color: $accent;
+        }
+        &:hover{
+            color: $tan;
+        }
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translate3d(0, 10px, 0);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
 
 nav{
     position: fixed;

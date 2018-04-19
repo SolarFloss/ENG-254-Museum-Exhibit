@@ -5,7 +5,12 @@ class Themes extends Component {
     render() {
         return (
             <div className="themes-wrapper wrapper">
-                <div className="section">
+                <div className="top-links">
+                    <span><a href="#racism">RACISM</a></span>
+                    <span><a href="#isolation">ISOLATION</a></span>
+                    <span><a href="#society">SOCIETY</a></span>
+                </div>
+                <div className="section" id="racism">
                     <h1>RACISM</h1>
                     <p>
                         As a child, Wright often came in contact with the issue of racism and race. Even with little to no understanding, he had been
@@ -14,7 +19,7 @@ class Themes extends Component {
                         Wright. This quote does a great job of explaining Wright's confusion:
                     </p>
                     <p>
-                        <span className="quote">"It might have been that my tardiness in learning to sense white people as "white" people came from the fact that many of my relatives were "white"-looking people. My grandmother, who was white as any "white" person, had never looked "white" to me."</span>
+                        <span className="quote">"It might have been that my tardiness in learning to sense white people as "white" people came from the fact that many of my relatives were "white"-looking people. My grandmother, who was white as any "white" person, had never looked "white" to me (Wright, Richard).</span>
                     </p>
                     <p>
                         Wright had no understanding as to what makes a person <b>white</b>. Why can't your looks alone determing what makes you white, 
@@ -28,7 +33,7 @@ class Themes extends Component {
                    
                 </div>
 
-                <div className="section">
+                <div className="section" id="isolation">
                     <h1>ISOLATION</h1>
                     <p>
                         With a father out of the picture and a busy working mother, most of Wright's childhood was spent in isolation and solitude. This allowed him to explore the 
@@ -36,7 +41,7 @@ class Themes extends Component {
                         he stumbles into a bar filled with drunk adults, one of which asks him to repeat obscenities for pennies and nickels. Wright explains this as:
                     </p>
                     <p>
-                        <span className="quote">"for a penny or a nickel, I would repeat to anyone whatever was whispered to me. In my foggy, tipsy state, the reaction of men and women to my mysterious words enthralled me. I ran from person to person, laughing, hiccoughing, spewing out firth that made them bend down with glee"</span>
+                        <span className="quote">"for a penny or a nickel, I would repeat to anyone whatever was whispered to me. In my foggy, tipsy state, the reaction of men and women to my mysterious words enthralled me. I ran from person to person, laughing, hiccoughing, spewing out firth that made them bend down with glee" (Wright, Richard).</span>
                     </p>
                     <p>
                         Even though Wright did not know what each word meant, he knew that what he was doing would be looked down upon. This childish behavior
@@ -46,7 +51,7 @@ class Themes extends Component {
                     </p>
                 </div>
 
-                <div className="section">
+                <div className="section" id="society">
                     <h1>SOCIETY</h1>
                     <p>
                         From a very young age, Wright had always stood out, and in more ways than one. This prooved to be a challenge for Wright in many
@@ -56,7 +61,7 @@ class Themes extends Component {
                     <p>
                         <span className="quote">
                         "Yet, all about me, Negroes were stealing. More than once I had been called a "dumb nigger" by black boys who discovered that I had not availed myself of a chance to snatch some petty piece of white property that had been carelessly left within my reach.
-                        "How in hell you gonna git ahead?" I had been asked when I had said that one ought not steal"
+                        "How in hell you gonna git ahead?" I had been asked when I had said that one ought not steal" (Wright, Richard).
                         </span>
                     </p>
                     <p>
